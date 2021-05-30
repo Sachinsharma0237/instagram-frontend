@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   login=()=>{
-    window.location = "http://localhost:4000/auth/google";
+    window.location = "https://sachinsharma-instagram.herokuapp.com/auth/google";
   }
 
   logout=()=>{

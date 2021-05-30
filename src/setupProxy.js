@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/auth',
     createProxyMiddleware({
-      target: 'http://localhost:4000',
+      target: 'https://sachinsharma-instagram.herokuapp.com/',
       changeOrigin: true,
     })
   );
