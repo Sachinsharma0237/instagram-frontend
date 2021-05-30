@@ -1,0 +1,22 @@
+.feeds{
+
+}
+.upload-post{
+    display: flex;
+    top: 54px;
+    margin: 6px;
+    margin-top: 11px;
+    left: 0px;
+    position: fixed;
+    flex-direction: column;
+}
+#upload-post{
+    margin-bottom: 10px;
+}
+#caption{
+
+}
+.upload-button{
+
+}
+

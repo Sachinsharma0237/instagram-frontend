@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#no-post-tag{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    top: 175px;
+    width: 9rem;
+    left: 453px;
+    height: 9rem;
+}

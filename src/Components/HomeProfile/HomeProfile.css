@@ -1,0 +1,87 @@
+.home-profile {
+  background: #fafafa;
+  height: 100%;
+  width: 308px;
+  top: 49px;
+  right: 0px;
+  position: fixed;
+  }
+  .user-info {
+    margin: 24px;
+  }
+  .user-image {
+    width: 60px;
+    height: 60px;
+  }
+  .user-image img {
+    max-width: 59px;
+    max-height: 59px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 243px;
+  }
+  .name {
+      color: rgba(var(--f52, 142, 142, 142), 1);
+      position: absolute;
+      right: -38px;
+      top: 2px;
+  }
+  .myusername {
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    position: fixed;
+    top: 75px;
+    right: 0px;
+    font-size: 14px;
+  }
+  .myname {
+    color: rgba(var(--f52, 142, 142, 142), 1);
+  }
+  .user-suggestions {
+      color: #c3c3c3;
+      margin-right: 10px;
+      position: fixed;
+      right: 75px;
+  }
+  .suggestion-user {
+    display: flex;
+    margin-bottom: 34px;
+    margin-top: 19px;
+    align-items: baseline;
+  }
+  .suggestion-profile-photo {
+  
+  }
+  .suggestion-profile-photo img {
+    max-width: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 9px;
+  }
+  .suggestion-details {
+    
+  }
+  .username {
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    font-size: 14px;
+  }
+  .name {
+    color: rgba(var(--f52, 142, 142, 142), 1);
+  }
+  .follow-btn {
+    position: absolute;
+    color: #458eff;
+    font-size: 18px;
+    right: -70px;
+  }
+  .follow-btn div {
+  }
+  .no-suggestion{
+    color: #c3c3c3;
+    font-size: 30px;
+  }

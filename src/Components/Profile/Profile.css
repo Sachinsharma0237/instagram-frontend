@@ -1,0 +1,135 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:60px;
+  }
+  .profile-top {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .profile-left {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .profile-photo {
+  }
+  .profile-photo img {
+    height: 82%;
+    width: 92%;
+    border-radius: 50%;
+  }
+  .profile-info {
+    border: 2px solid lightgray;
+    font-weight: bold;
+  }
+  .profile-name {
+    color: lightgray;
+  }
+  .profile-username {
+    color: lightgray;
+  }
+  .profile-bio {
+    color: lightgray;
+  }
+  .profile-right {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+  }
+  .profile-post {
+    cursor: pointer;
+  }
+  .count {
+    text-align: center;
+  }
+  .profile-right h3 {
+  }
+  .profile-follower {
+    cursor: pointer;
+  }
+  
+  .profile-following {
+    cursor: pointer;
+  }
+  .profile-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .following-user{
+      border: 3px solid;
+      min-width: 405px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      align-items: center;
+  }
+  .following-image{
+    max-width: 400px;
+    max-height: 400px;
+    justify-content: center;
+    background: black;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+  }
+  .following-image img{
+    max-width: 350px;
+    max-height: 350px;
+    border: 1px solid lightgreen;
+  }
+  .following-name{
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .following-username{
+      color: rgba(var(--i1d, 38, 38, 38), 1);
+      font-size: 25px;
+  }
+  .following-bio{
+    color: #262626;
+    FONT-SIZE: 28px;
+  }
+  .follower-user{
+    border: 3px solid;
+    min-width: 405px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .follower-image{
+    max-width: 400px;
+    max-height: 400px;
+    justify-content: center;
+    background: black;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+  }
+  .follower-image img{
+    max-width: 350px;
+    max-height: 350px;
+    border: 1px solid lightgreen;
+  }
+  .follower-name{
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .follower-username{
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    font-size: 25px;
+  }
+  .follower-bio{
+    color: #262626;
+    FONT-SIZE: 28px;
+  }

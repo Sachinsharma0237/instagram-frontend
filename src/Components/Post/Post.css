@@ -1,0 +1,110 @@
+.post{
+    height: 470px;
+    width: 600px;
+    border: 1px solid lightgray;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    margin-top: 57px;
+}
+.post-header{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+    width: 51%;
+    overflow-wrap: anywhere;
+}
+.post-userphoto{
+    height: 93%;
+}
+.post-userphoto img{
+    height: 100%;
+    border-radius: 50%;
+    max-width: 40px;
+    max-height: 42px;
+    padding: 3px;
+}
+.post-username{
+    margin-right: 10px;
+    color: #343434;
+}
+.post-caption{
+    color: #262626;
+}
+.post-body{
+    border-top: 1px solid lightgray;
+    height: 90%;
+}
+.post-image{
+    height: 60%;
+    border-bottom: 1px solid lightgray;
+    
+}
+.post-image img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.post-actions{
+    display: flex;
+    flex-direction: column;
+    left: 341px;
+    position: absolute;
+}
+.like{
+
+}
+.like img{
+    height: 36px;
+}
+.comment{
+    
+}
+.like-comment{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3px;
+}
+.comment img{
+    height: 27px;
+}
+.likes-count{
+    height: 5%;
+}
+.post-details{
+    height: 5%;
+    display: flex;
+}
+
+.post-comments{
+    height: 15%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+}
+.post-comment-box{
+    height: 10%;
+    border-top: 0.2px solid lightgray;
+    display: flex;
+    align-items: center;
+    background: #FAFAFA;
+}
+#input{
+    width: 462px;
+    height: 30px;
+    border: 3px solid lightgrey;
+}
+.post-comment-btn{
+    height: 29px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    background: yellow;
+    color: black;
+}
