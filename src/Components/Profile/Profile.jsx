@@ -12,7 +12,7 @@ class Profile extends Component {
       }
 
     onViewChangeHandler=(view)=>{
-        if( view != this.state.view ){
+        if( view !== this.state.view ){
             this.setState({
                 view
             })
@@ -79,11 +79,11 @@ class Profile extends Component {
                 </div>
             </div>
             <div className="profile-content">
-              { this.state.view == "POSTS" && this.state.posts.map( (post)=>{
+              { this.state.view === "POSTS" && this.state.posts.map( (post)=>{
                   return <Post key={post["_id"]} post={post} user={this.props.user} />
               })}
 
-              { this.state.view == "FOLLOWERS" && this.state.follower.map( (follower)=>{
+              { this.state.view === "FOLLOWERS" && this.state.follower.map( (follower)=>{
                   return <div className="follower-user">
                             <div className="follower-image">
                                 <img src={follower.profilePic} alt=""/>
@@ -94,7 +94,7 @@ class Profile extends Component {
                         </div>
               })}
 
-              { this.state.view == "FOLLOWING" && this.state.following.map( (following)=>{
+              { this.state.view === "FOLLOWING" && this.state.following.map( (following)=>{
                     return <div className="following-user">
                     <div className="following-image">
                         <img src={following.profilePic} alt=""/>

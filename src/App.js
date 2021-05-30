@@ -4,7 +4,7 @@ import Home from './Components/Home/Home';
 import Profile from './Components/Profile/Profile';
 import Settings from './Components//Settings/Settings';
 import axios from 'axios';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Login from './Components/Login/Login';
 
 
